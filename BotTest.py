@@ -44,7 +44,7 @@ print(regions)'''
 answer = 'В Москве за последние сутки:\nЗаболело: ' + sick_incr + '\nВыздоровело: ' + healed_incr + '\nУмерло: '  + died_incr
 answer += '\n\n Данные взяты с сайта Стопкоронавирус.рф'
 
-bot = telebot.TeleBot('5136141853:AAH8lf40WamqhkSESMVrn6kecjYMK1poDP4')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
